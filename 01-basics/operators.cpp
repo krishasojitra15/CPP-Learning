@@ -21,18 +21,12 @@ int main() {
     // Assignment Operators
     cout << "=== Assignment Operators ===" << endl;
     int x = 10;
-
-    int x = 10;
-
     x += 5;
     cout << x << endl;
-
     x -= 3;
     cout << x << endl;
-
     x *= 2;
     cout << x << endl;
-
     x /= 4;
     cout << x << endl;
 
@@ -40,8 +34,7 @@ int main() {
 
     // Comparison Operators
     cout << "=== Comparison Operators ===" << endl;
-   int a = 10;
-   int b = 20;
+
 
     cout << (a == b) << endl;
     cout << (a != b) << endl;
@@ -55,12 +48,12 @@ int main() {
     // Logical Operators
     cout << "=== Logical Operators ===" << endl;
 
-    bool x = true;
-    bool y = false;
+    bool p = true;
+    bool q = false;
 
-    cout << (x && y) << endl;
-    cout << (x || y) << endl;
-    cout << (!x) << endl;
+    cout << (p && q) << endl;
+    cout << (p|| q) << endl;
+    cout << (!p) << endl;
 
     cout << endl;
 

@@ -7,12 +7,11 @@ vector<int> productExceptself(vector<int> &nums){
     vector<int> ans(n,1);
 
     for(int i=0 ;i<n; i++){
-
         for(int j=0; j<n; j++){
             if(i !=j){
                 ans[i] *= nums[j];
             }
-        }
+        }  
     }
-    return ans;
-}
+     return ans;
+};
